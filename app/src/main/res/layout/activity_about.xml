@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003A57"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Hi, I'm Matrix.\n\nThe application, My Works , which you are using now helps you to create a to do list for a daily routine.You can check or uncheck them.\n\nFEATURES:\n• You can enable notification for a specific HIGH PRIORITY work.\n• The work color changes to Yellow gradient when you enable notification\n• Once you enabled notification for a work, you CAN'T enable notifications to another work. So choose HIGH PRIORITY work wisely.\n• The notification repeats for every 10 minutes.\n•You can set your own timings by going to settings options.\n\n\nYou can complete the task by clicking on the notification.\n\n\nSerial number: 02\nDate of creation: 13 December 2021\nEmail us: matrixinventions@gmail.com"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
